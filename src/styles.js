@@ -55,7 +55,7 @@ export default makeStyles((theme) => ({
     backgroundColor: 'rgba(21, 101, 192)',
     margin: '2px 12px',
     textAlign: 'center',
-    height: '25vmin',
+    height: '22vmin',
     width: '90%',
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column-reverse',

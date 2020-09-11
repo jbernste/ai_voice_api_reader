@@ -45,9 +45,10 @@ const App = () => {
 
     return (
         <div>
-            <div className={classes.cardHeader}><h2>AI VOICE ACTIVATED NEWS READER  : </h2> <div className={classes.image}><h3>{ '  ' } + Joshua Bernstein <br /> Fullstack Developer +</h3></div></div>
+            <div className={classes.cardHeader}><h2>AI VOICE NEWS READER   </h2> <div className={classes.image}><h3>{ '  ' } + Joshua Bernstein <br /> Fullstack Developer +</h3></div></div>
 
                 <div className={classes.logoContainer}> <img src="https://miro.medium.com/max/3840/1*zlt_wRZCGofSbmSqduds9w.png" className={classes.mainLogo} alt="mainlogo" />
+                <img src="https://alan.app/voice/images/branding_page/seal/color/alan-seal-horizontal-color.svg?1b8b70bb71eb5a4b7ca2fbde38a13237" className={classes.logo} alt="alanLogo" />
                 </div>
             <div className={classes.logoContainer}>
 

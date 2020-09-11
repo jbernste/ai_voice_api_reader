@@ -6,10 +6,10 @@ import classNames from 'classnames';
 import useStyles from './styles';
 
 const infoCards = [
-    { color: '#A0b2eb', title: 'Latest News', text: '(click the mic icon first) "Give me the latest news". When in news say: "Go back" or you can ask,"What does this app do?" '},
-    { color: '#e6ccff', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Give me the latest Technology news' },
-    { color: '#8458b3', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Iphone, Biden...', text: 'What\'s up with PlayStation 5. After you are in the news page, say "open number 3"' },
-    { color: '#494d5f', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, Bloomberg, ABC News...', text: 'Give me the news from CNN' },
+    { color: '#A0b2eb', title: 'Latest News', text: '(click the mic icon first) You can ask,"What does this app do?" or "Give me the latest news" & in news say "No" to reading headlines aloud & say "Go Back."'},
+    { color: '#e6ccff', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: '"Give me the latest Technology news." '},
+    { color: '#8458b3', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Iphone, Biden...', text: 'What\'s up with Sony. After you are in the news page, say "open number 3"' },
+    { color: '#494d5f', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, Bloomberg, ABC News...', text: '"Give me the news from CNN"' },
   ];
 
 const NewsCards = ( { articles, activeArticle}) => {
